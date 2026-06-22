@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Disallow legal/utility pages from being indexed
+Disallow: /privacy
+Disallow: /cookies
+Disallow: /legal
+
+# Sitemap location
+Sitemap: https://aguinacoaerials.com/sitemap.xml

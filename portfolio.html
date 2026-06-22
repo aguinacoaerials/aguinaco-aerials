@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/Logo.png" type="image/png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Outfit:wght@600;700;800;900&display=swap" />
+  <title>Portfolio | Aguinaco Aerials — Proyectos de Filmación Aérea y Fotografía</title>
+  <meta name="description"
+    content="Explora el portfolio de Aguinaco Aerials: proyectos de filmación aérea, fotografía profesional, tours virtuales 360° y vídeos corporativos en España." />
+  <link rel="canonical" href="https://aguinacoaerials.com/portfolio" />
+  <meta property="og:title" content="Portfolio | Aguinaco Aerials" />
+  <meta property="og:description" content="Proyectos de filmación aérea, fotografía y tours 360° en España." />
+  <meta property="og:image" content="https://aguinacoaerials.com/assets/images/portfolio_1.jpg" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+
+  <a href="#main-content" class="skip-link">Saltar al contenido principal</a>
+
+  <nav id="navbar" aria-label="Navegación principal">
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">
+        <img src="assets/images/Logo.png" alt="Aguinaco Aerials" class="nav-logo-img" />
+        <img src="assets/images/NEWLOGOLETRASPNG.png" alt="Aguinaco Aerials" class="nav-logo-wordmark"
+          style="height: 46px; margin-left: 10px;" />
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="services.html">Servicios</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="about.html">Sobre mí</a></li>
+        <li><a href="contact.html">Contacto</a></li>
+      </ul>
+      <div class="nav-right">
+        <a href="contact.html" class="btn btn-primary btn-sm">Solicitar presupuesto</a>
+        <button class="hamburger" id="hamburger" aria-label="Abrir menú"
+          aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" id="mobileClose" aria-label="Cerrar menú">✕</button>
+    <a href="index.html" class="mobile-nav-link">Inicio</a>
+    <a href="services.html" class="mobile-nav-link">Servicios</a>
+    <a href="portfolio.html" class="mobile-nav-link">Portfolio</a>
+    <a href="about.html" class="mobile-nav-link">Sobre mí</a>
+    <a href="contact.html" class="mobile-nav-link">Contacto</a>
+    <a href="contact.html" class="btn btn-primary mobile-nav-link" style="font-size:1rem;margin-top:12px;">Solicitar
+      presupuesto</a>
+  </div>
+
+  <main id="main-content">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-labelledby="portfolio-page-heading">
+      <div class="page-hero-glow" aria-hidden="true"></div>
+      <div class="container" style="position:relative;z-index:1;">
+        <nav aria-label="Ruta de navegación" style="margin-bottom:24px;">
+          <ol class="breadcrumb" style="justify-content:center;">
+            <li><a href="index.html">Inicio</a></li>
+            <li class="breadcrumb-sep" aria-hidden="true">/</li>
+            <li class="current" aria-current="page">Portfolio</li>
+          </ol>
+        </nav>
+        <div class="page-hero-eyebrow eyebrow">Trabajo selecto</div>
+        <h1 class="page-hero-title">Portfolio <span class="accent">completo</span></h1>
+        <p class="page-hero-subtitle">Una muestra de mis capacidades técnicas y artísticas en filmación aérea,
+          fotografía y producción audiovisual. Cada plano refleja el nivel de exigencia que aplico.</p>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO GRID -->
+    <section class="section" aria-labelledby="portfolio-grid-heading">
+      <div class="container">
+        <div class="portfolio-tabs fade-up" role="tablist" aria-label="Filtros de categoría">
+          <button class="portfolio-tab active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+          <button class="portfolio-tab" data-filter="inmobiliaria" role="tab"
+            aria-selected="false">Inmobiliaria</button>
+          <button class="portfolio-tab" data-filter="eventos" role="tab" aria-selected="false">Eventos</button>
+          <button class="portfolio-tab" data-filter="corporativo" role="tab" aria-selected="false">Corporativo</button>
+          <button class="portfolio-tab" data-filter="turismo" role="tab" aria-selected="false">Turismo</button>
+        </div>
+
+        <div class="portfolio-grid fade-up" id="portfolio-grid" role="list">
+          <article class="portfolio-item portfolio-item--large" data-category="inmobiliaria" role="listitem">
+            <img src="assets/images/portfolio_1.jpg" alt="Fotografía aérea residencial" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Inmobiliaria</span>
+              <h3 class="portfolio-name">Fotografía Aérea Residencial</h3>
+            </div>
+          </article>
+          <article class="portfolio-item" data-category="eventos" role="listitem">
+            <img src="assets/images/portfolio_2.jpg" alt="Planos aéreos para eventos" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Eventos</span>
+              <h3 class="portfolio-name">Planos Aéreos de Eventos</h3>
+            </div>
+          </article>
+          <article class="portfolio-item" data-category="corporativo" role="listitem">
+            <img src="assets/images/portfolio_3.jpg" alt="Vídeos corporativos técnica" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Corporativo</span>
+              <h3 class="portfolio-name">Vídeo Corporativo</h3>
+            </div>
+          </article>
+          <article class="portfolio-item" data-category="turismo" role="listitem">
+            <img src="assets/images/portfolio_4.jpg" alt="Fotografía de turismo e interiores" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Turismo</span>
+              <h3 class="portfolio-name">Turismo e Interiores</h3>
+            </div>
+          </article>
+          <article class="portfolio-item" data-category="inmobiliaria" role="listitem">
+            <img src="assets/images/portfolio_5.jpg" alt="Fotografía aérea de propiedades de lujo" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Inmobiliaria</span>
+              <h3 class="portfolio-name">Propiedades de Lujo</h3>
+            </div>
+          </article>
+          <article class="portfolio-item" data-category="eventos" role="listitem">
+            <img src="assets/images/portfolio_6.jpg" alt="Filmación aérea para bodas y celebraciones" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Eventos</span>
+              <h3 class="portfolio-name">Filmación Aérea para Bodas</h3>
+            </div>
+          </article>
+          <article class="portfolio-item portfolio-item--large" data-category="corporativo" role="listitem">
+            <img src="assets/images/real_estate_bg.jpg" alt="Vídeo corporativo industrial" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Corporativo</span>
+              <h3 class="portfolio-name">Grabación Aérea Industrial</h3>
+            </div>
+          </article>
+          <article class="portfolio-item" data-category="turismo" role="listitem">
+            <img src="assets/images/hero_bg.jpg" alt="Planos aéreos de paisajes y naturaleza" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Turismo</span>
+              <h3 class="portfolio-name">Paisajes y Naturaleza</h3>
+            </div>
+          </article>
+          <article class="portfolio-item" data-category="inmobiliaria" role="listitem">
+            <img src="assets/images/portfolio_1.jpg" alt="Vistas aéreas residenciales" loading="lazy" />
+            <div class="portfolio-overlay">
+              <span class="portfolio-tag">Inmobiliaria</span>
+              <h3 class="portfolio-name">Urbanizaciones y Arquitectura</h3>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GARANTÍAS -->
+    <section class="section" style="background:var(--bg-2);" aria-labelledby="stats-portfolio-heading">
+      <div class="container">
+        <div class="fade-up" style="text-align:center;max-width:560px;margin:0 auto var(--space-2xl);">
+          <span class="eyebrow">Garantías</span>
+          <h2 class="section-title" id="stats-portfolio-heading">Compromiso <span class="accent">profesional</span></h2>
+        </div>
+        <div class="grid-panel grid-panel-4 fade-up">
+          <div class="grid-panel-cell">
+            <div
+              style="font-family:'Outfit',sans-serif;font-size:3rem;font-weight:900;color:var(--blue-light);margin-bottom:8px;">
+              AESA</div>
+            <div style="font-size:0.85rem;color:var(--gray-400);">Piloto Certificado Oficial</div>
+          </div>
+          <div class="grid-panel-cell">
+            <div
+              style="font-family:'Outfit',sans-serif;font-size:3rem;font-weight:900;color:var(--blue-light);margin-bottom:8px;"
+              data-count="100" data-suffix="%">100%</div>
+            <div style="font-size:0.85rem;color:var(--gray-400);">Seguro R.C. Obligatorio</div>
+          </div>
+          <div class="grid-panel-cell">
+            <div
+              style="font-family:'Outfit',sans-serif;font-size:3rem;font-weight:900;color:var(--blue-light);margin-bottom:8px;"
+              data-count="48" data-suffix="h">48h</div>
+            <div style="font-size:0.85rem;color:var(--gray-400);">Plazo de entrega estándar</div>
+          </div>
+          <div class="grid-panel-cell">
+            <div
+              style="font-family:'Outfit',sans-serif;font-size:3rem;font-weight:900;color:var(--blue-light);margin-bottom:8px;">
+              5.4K</div>
+            <div style="font-size:0.85rem;color:var(--gray-400);">Calidad de imagen máxima</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section" aria-labelledby="cta-portfolio-heading">
+      <div class="cta-glow-left" aria-hidden="true"></div>
+      <div class="cta-glow-right" aria-hidden="true"></div>
+      <div class="container">
+        <div class="cta-inner fade-up">
+          <div>
+            <span class="eyebrow">¿Quieres resultados así?</span>
+            <h2 class="cta-title" id="cta-portfolio-heading">Hablemos de tu próximo proyecto.</h2>
+            <p class="cta-body">Gestiono personalmente cada proyecto para garantizar el nivel de calidad que ves en este
+              portfolio.</p>
+          </div>
+          <div class="cta-actions">
+            <a href="contact.html" class="btn btn-primary btn-lg">Solicitar presupuesto</a>
+            <a href="book-a-call.html" class="btn btn-outline btn-lg">Reservar una llamada</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+
+  </main>
+  <div class="mobile-cta-bar" aria-label="Acciones rápidas">
+    <a href="tel:+34685097504" class="btn btn-outline btn-sm">Llamar</a>
+    <a href="contact.html" class="btn btn-primary btn-sm">Presupuesto</a>
+  </div>
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="footer-logo"><img src="assets/images/Logo.png" alt="Aguinaco Aerials"
+              class="footer-logo-img" loading="lazy" /><img src="assets/images/NEWLOGOLETRASPNG.png"
+              alt="Aguinaco Aerials" class="footer-logo-wordmark" style="height: 46px; margin-left: 10px;" /></a>
+          <p class="footer-tagline">Filmación aérea, fotografía y tours 360° para empresas y marcas en toda España.
+            Fundado y dirigido por Pablo Aguinaco.</p>
+          <div class="footer-socials">
+            <a href="https://instagram.com/aguinacoaerials" class="footer-social" target="_blank" rel="noopener"
+              aria-label="Instagram"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.5">
+                <rect x="2" y="2" width="20" height="20" rx="5" />
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg></a>
+            <a href="https://linkedin.com/in/pabloaguinaco" class="footer-social" target="_blank" rel="noopener"
+              aria-label="LinkedIn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.5">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg></a>
+            <a href="https://youtube.com/@aguinacoaerials" class="footer-social" target="_blank" rel="noopener"
+              aria-label="YouTube"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                stroke="currentColor" stroke-width="1.5">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z" />
+                <polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" />
+              </svg></a>
+          </div>
+        </div>
+        <nav aria-label="Servicios">
+          <div class="footer-col-title">Servicios</div>
+          <ul class="footer-links">
+            <li><a href="services/drone-filming.html">Filmación con drones</a></li>
+            <li><a href="services/professional-photography.html">Fotografía profesional</a></li>
+            <li><a href="services/virtual-tours-360.html">Tours virtuales 360°</a></li>
+            <li><a href="services/corporate-videos.html">Vídeos corporativos</a></li>
+            <li><a href="services/social-media-content.html">Contenido para redes</a></li>
+          </ul>
+        </nav>
+        <nav aria-label="Navegación">
+          <div class="footer-col-title">Navegación</div>
+          <ul class="footer-links">
+            <li><a href="about.html">Sobre mí</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+          </ul>
+        </nav>
+        <div>
+          <div class="footer-col-title">Contacto</div>
+          <ul class="footer-links">
+            <li><a href="tel:+34685097504">+34 685 09 75 04</a></li>
+            <li><a href="mailto:info@aguinacoaerials.com">aguinacoaerials@gmail.com</a></li>
+            <li style="color:var(--gray-500);font-size:.875rem;">España · Cobertura nacional</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-copyright">© 2026 Aguinaco Aerials. Todos los derechos reservados.</span>
+        <nav class="footer-legal" aria-label="Legal"><a href="legal.html">Aviso legal</a><a
+            href="privacy.html">Privacidad</a><a href="cookies.html">Cookies</a></nav>
+      </div>
+    </div>
+  </footer>
+
+
+  <div id="cookieBanner" role="dialog" aria-label="Aviso de cookies" aria-modal="true" aria-live="polite">
+    <p>
+      Utilizamos cookies propias y de terceros para mejorar la experiencia de navegación.
+      <a href="cookies.html">Más información</a>
+    </p>
+    <div class="cookie-actions">
+      <button id="cookieAccept" class="btn btn-primary btn-sm">Aceptar</button>
+      <button id="cookieReject" class="btn btn-outline btn-sm">Rechazar</button>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
